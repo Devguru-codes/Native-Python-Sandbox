@@ -226,7 +226,8 @@ def _build_argument_parser() -> argparse.ArgumentParser:
             "Examples:\n"
             "  python sandbox.py bad_submission.py --timeout-seconds 5 --memory-mb 256\n"
             "  python sandbox.py memory_bomb_submission.py --timeout-seconds 15 --memory-mb 256\n"
-            "  python sandbox.py /examples"
+            "  python sandbox.py /examples\n\n"
+            "For the full command catalog, see commands_examples.md"
         ),
         formatter_class=argparse.RawTextHelpFormatter,
     )

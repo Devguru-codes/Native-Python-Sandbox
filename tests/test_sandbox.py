@@ -260,6 +260,7 @@ def test_cli_help_alias_succeeds() -> None:
 
     assert completed.returncode == 0
     assert "Run a Python script inside the Native Python Sandbox." in completed.stdout
+    assert "commands_examples.md" in completed.stdout
 
 
 def test_cli_examples_alias_succeeds() -> None:

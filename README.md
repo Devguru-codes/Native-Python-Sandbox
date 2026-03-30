@@ -65,6 +65,8 @@ Need a quick reminder from the CLI itself?
 .\.venv\Scripts\python sandbox.py /examples
 ```
 
+For the full command reference, see [`commands_examples.md`](commands_examples.md).
+
 Run the memory bomb demo:
 
 ```powershell
