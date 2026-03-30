@@ -1,0 +1,3 @@
+﻿$ .\.venv\Scripts\python sandbox.py bad_submission.py --timeout-seconds 1 --memory-mb 256
+termination_reason=TIMEOUT_EXCEEDED
+exit_code=15

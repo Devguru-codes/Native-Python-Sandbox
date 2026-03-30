@@ -1,0 +1,21 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="24" fill="#0B1020"/>
+  <rect x="40" y="40" width="1120" height="640" rx="20" fill="#11182E" stroke="#243050" stroke-width="2"/>
+  <circle cx="88" cy="86" r="10" fill="#FF5F57"/>
+  <circle cx="120" cy="86" r="10" fill="#FEBC2E"/>
+  <circle cx="152" cy="86" r="10" fill="#28C840"/>
+  <text x="190" y="93" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="28">Native Python Sandbox Demo</text>
+
+  <text x="80" y="160" fill="#7DD3FC" font-family="'Courier New', monospace" font-size="26">$ python sandbox.py bad_submission.py --timeout-seconds 5 --memory-mb 256</text>
+  <text x="80" y="220" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="24">termination_reason=TIMEOUT_EXCEEDED</text>
+  <text x="80" y="265" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="24">exit_code=1</text>
+
+  <rect x="78" y="320" width="1044" height="94" rx="12" fill="#17213D" stroke="#27365F"/>
+  <text x="104" y="376" fill="#FCA5A5" font-family="'Courier New', monospace" font-size="22">Sandbox monitor: killed child process tree after elapsed runtime exceeded 5.0 seconds.</text>
+
+  <rect x="78" y="456" width="1044" height="154" rx="12" fill="#0F172A" stroke="#223154"/>
+  <text x="104" y="510" fill="#93C5FD" font-family="'Courier New', monospace" font-size="22">Why this matters:</text>
+  <text x="104" y="552" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="20">- No Docker dependency on locked-down hospital laptops</text>
+  <text x="104" y="586" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="20">- Cross-platform subprocess watchdog with psutil</text>
+  <text x="104" y="620" fill="#D6E2FF" font-family="'Courier New', monospace" font-size="20">- Optional NVIDIA GPU memory guard when NVML is available</text>
+</svg>

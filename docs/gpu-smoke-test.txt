@@ -1,0 +1,3 @@
+enabled=True
+GPU monitor initialized
+memory_mb=0.0
